@@ -1,0 +1,71 @@
+.section-cta {
+  padding: 9.6rem 0 12.8rem !important;
+}
+
+.cta {
+  display: grid;
+  background-color: #dee2e6;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+
+  background-image: linear-gradient(to right, #9b9ea1, #dee2e6);
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.cta .heading-secondary {
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  background-color: #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+.btn-form {
+  align-self: end;
+}
+.btn--form {
+  background-color: #9b9ea1;
+  width: 100%;
+  padding: 1.2rem;
+  align-self: end;
+  bottom: 0;
+  transition: all 0.4s;
+}
+
+.btn--form:hover {
+  background-color: #dee2e6;
+}
